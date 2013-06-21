@@ -10,13 +10,13 @@ our $VERSION = '0.01';
 	package # hide from pause
 		Time::Piece;
 
-	sub is_sunday 		{ lc(shift->fullday) eq 'sunday' 		}
-	sub is_monday 		{ lc(shift->fullday) eq 'monday' 		}
-	sub is_tuesday 		{ lc(shift->fullday) eq 'tuesday' 	}
-	sub is_wednesday 	{ lc(shift->fullday) eq 'wednesday' }
-	sub is_thursday 	{ lc(shift->fullday) eq 'thursday' 	}
-	sub is_friday 		{ lc(shift->fullday) eq 'friday' 		}
-	sub is_saturday 	{ lc(shift->fullday) eq 'saturday' 	}
+	sub is_sunday 		{ shift->wday == 1 }
+	sub is_monday 		{ shift->wday == 2 }
+	sub is_tuesday 		{ shift->wday == 3 }
+	sub is_wednesday 	{ shift->wday == 4 }
+	sub is_thursday 	{ shift->wday == 5 }
+	sub is_friday 		{	shift->wday == 6 }
+	sub is_saturday 	{ shift->wday == 7 }
 
 }
 
