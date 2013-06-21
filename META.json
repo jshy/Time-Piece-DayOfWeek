@@ -47,6 +47,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/jshy/Time-Piece-DayOfWeek/issues"
+      },
+      "homepage" : "https://github.com/jshy/Time-Piece-DayOfWeek",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/jshy/Time-Piece-DayOfWeek.git",
+         "web" : "https://github.com/jshy/Time-Piece-DayOfWeek"
+      }
+   },
    "version" : "0.01",
    "x_contributors" : [
       "jshy <finn.cool@yahoo.com>"
