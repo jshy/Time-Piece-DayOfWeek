@@ -1,0 +1,6 @@
+/Time-Piece-DayOfWeek-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
