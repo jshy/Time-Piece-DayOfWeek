@@ -5,8 +5,6 @@ use Test::More tests => 14;                      # last test to print
 use Time::Piece;
 use Time::Seconds;
 use Time::Piece::DayOfWeek;
-use Data::Printer;
-
 
 my $tp = Time::Piece->strptime('December 13, 2010', '%B %d, %Y');
 
